@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="shortcut icon" href="./img/icons8-spotify-50.png">
+    <link rel="stylesheet" href="./src/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
+                <path fill="currentColor"
+                    d="M25.009,1.982C12.322,1.982,2,12.304,2,24.991S12.322,48,25.009,48s23.009-10.321,23.009-23.009S37.696,1.982,25.009,1.982z M34.748,35.333c-0.289,0.434-0.765,0.668-1.25,0.668c-0.286,0-0.575-0.081-0.831-0.252C30.194,34.1,26,33,22.5,33.001 c-3.714,0.002-6.498,0.914-6.526,0.923c-0.784,0.266-1.635-0.162-1.897-0.948s0.163-1.636,0.949-1.897 c0.132-0.044,3.279-1.075,7.474-1.077C26,30,30.868,30.944,34.332,33.253C35.022,33.713,35.208,34.644,34.748,35.333z M37.74,29.193 c-0.325,0.522-0.886,0.809-1.459,0.809c-0.31,0-0.624-0.083-0.906-0.26c-4.484-2.794-9.092-3.385-13.062-3.35 c-4.482,0.04-8.066,0.895-8.127,0.913c-0.907,0.258-1.861-0.272-2.12-1.183c-0.259-0.913,0.272-1.862,1.184-2.12 c0.277-0.079,3.854-0.959,8.751-1c4.465-0.037,10.029,0.61,15.191,3.826C37.995,27.328,38.242,28.388,37.74,29.193z M40.725,22.013 C40.352,22.647,39.684,23,38.998,23c-0.344,0-0.692-0.089-1.011-0.275c-5.226-3.068-11.58-3.719-15.99-3.725 c-0.021,0-0.042,0-0.063,0c-5.333,0-9.44,0.938-9.481,0.948c-1.078,0.247-2.151-0.419-2.401-1.495 c-0.25-1.075,0.417-2.149,1.492-2.4C11.729,16.01,16.117,15,21.934,15c0.023,0,0.046,0,0.069,0 c4.905,0.007,12.011,0.753,18.01,4.275C40.965,19.835,41.284,21.061,40.725,22.013z">
+                </path>
+            </svg>
+        </div>
+        <div class="titulo">
+            <h1>Entrar no Spotify</h1>
+        </div>
+        <div class="caixa-entrar google">
+            <div class="conteudo-caixa google">
+                <img src="./img/7123025_logo_google_g_icon.png" alt="">
+                <h2>Continuar com o Google</h2>
+            </div>
+        </div>
+        <div class="caixa-entrar facebook">
+            <div class="conteudo-caixa facebook">
+                <img src="./img/icons8-facebook-48.png" alt="">
+                <h2>Continuar com o Facebook</h2>
+            </div>
+        </div>
+        <div class="caixa-entrar apple">
+            <div class="conteudo-caixa apple">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
+                    <path fill="currentColor"
+                        d="M 44.527344 34.75 C 43.449219 37.144531 42.929688 38.214844 41.542969 40.328125 C 39.601563 43.28125 36.863281 46.96875 33.480469 46.992188 C 30.46875 47.019531 29.691406 45.027344 25.601563 45.0625 C 21.515625 45.082031 20.664063 47.03125 17.648438 47 C 14.261719 46.96875 11.671875 43.648438 9.730469 40.699219 C 4.300781 32.429688 3.726563 22.734375 7.082031 17.578125 C 9.457031 13.921875 13.210938 11.773438 16.738281 11.773438 C 20.332031 11.773438 22.589844 13.746094 25.558594 13.746094 C 28.441406 13.746094 30.195313 11.769531 34.351563 11.769531 C 37.492188 11.769531 40.8125 13.480469 43.1875 16.433594 C 35.421875 20.691406 36.683594 31.78125 44.527344 34.75 Z M 31.195313 8.46875 C 32.707031 6.527344 33.855469 3.789063 33.4375 1 C 30.972656 1.167969 28.089844 2.742188 26.40625 4.78125 C 24.878906 6.640625 23.613281 9.398438 24.105469 12.066406 C 26.796875 12.152344 29.582031 10.546875 31.195313 8.46875 Z">
+                    </path>
+                </svg>
+                <h2>Continuar com Apple</h2>
+            </div>
+        </div>
+        <div class="caixa-entrar telefone">
+            <div class="conteudo-caixa telefone">
+                <h2>Continuar com o número de telefone</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="login">
+            <p style="padding-left: 10px; margin-top: 15px;">E-mail ou nome de usuário</p>
+            <input type="email" placeholder="E-mail ou nome de usuário">
+        </div>
+        <div class="senha">
+            <p style="padding-left: 10px; margin-top: 15px;">Senha</p>
+            <input type="password" placeholder="Senha">
+        </div>
+        <button>
+            <div>
+                <p style="color: black;">Entrar</p>
+            </div>
+        </button>
+        <h4 class="destaque">Esqueceu sua senha?</h4>
+        <div style="display: flex; gap: 10px;">
+            <h4>Não tem uma conta? </h4>
+            <h4 class="destaque">Inscreva-se no Spotify</h4>
+        </div> 
+        
+    </div>
+    
+
+    <footer>
+        <h3>Este site é protegido pelo reCAPTCHA e está sujeito à Política de Privacidade e aos Termos de Serviço do
+            Google.</h3>
+    </footer>
+
+</body>
+
+</html>
