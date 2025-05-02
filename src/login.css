@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(360deg, #000000, #292929);
+    height: 1200px;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background: linear-gradient(180deg, #000000, #1c1c1c);
+    margin-top: 80px;
+    height: 1000px;
+    width: 650px;
+    justify-items: center;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.logo svg {
+    margin-top: 40px;
+    width: 55px;
+    height: 55px;
+    color: #ffffff;
+}
+
+.titulo {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.caixa-entrar.google {
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.caixa-entrar {
+    display: flex;
+    align-items: center;  
+    background-color: transparent; 
+    margin: 13px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #949494;
+    height: 55px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.caixa-entrar:hover {
+    border-color: #ffffff;
+}
+
+.conteudo-caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.conteudo-caixa.google{
+    gap: 32px;
+}
+.conteudo-caixa.facebook {
+    gap: 19px;
+}
+.conteudo-caixa.apple {
+    gap: 44px;
+}
+
+.conteudo-caixa.telefone {
+    margin-left: 22px;
+}
+
+h2 {
+    color: #e6e6e6;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 760;
+    font-size: 20px;
+    font-style: normal;
+}
+.caixa-entrar img{
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.caixa-entrar.apple svg {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+hr {
+    border-color: #1f1f1f;
+    width: 500px;
+    margin-top: 50px;
+}
+
+input {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #949494;
+    background-color: transparent;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+input:hover {
+    border-color: #ffffff;
+}
+
+.login {
+    margin-top: 50px;
+}
+
+::placeholder {
+    font-weight: 760;
+    font-size:16px;
+    padding-left: 10px;
+    color: #b0b0b0;
+}
+
+p {
+    font-family: "Cal Sans", sans-serif;
+    color: #ffffff;
+    font-weight: 760;
+    font-size:16px;
+}
+
+button {
+    height: 55px ;
+    width: 300px;
+    background-color: #1DB954;
+    color:#fff;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #2edf6c;
+}
+
+h4 {
+    font-family: "Cal Sans", sans-serif;
+    color: #ffffff;
+    font-weight: 460;
+    font-size:16px;
+    margin-top: 30px;
+}
+
+h4.destaque {
+    text-decoration: underline;
+}
+
+h4.destaque:hover {
+    cursor: pointer;
+    color: #1DB954;
+}
+
+footer {
+    background-color: #171717;
+    color: rgb(190, 190, 190);
+    text-align: center;
+    padding: 35px;
+    width: 100%;
+    margin-top: auto;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 275;
+    font-size: 13px;
+    font-style: normal;
+} 
